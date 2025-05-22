@@ -4,7 +4,7 @@ import React from 'react'
 const RegisterEmailView = () => {
   return (
     <View>
-      <Text>RegisterEmailView</Text>
+      {/* <Text>RegisterEmailView</Text> */}
     </View>
   )
 }
