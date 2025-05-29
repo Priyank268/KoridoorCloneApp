@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "766847512767",
+    "project_id": "koridorrcloneapp",
+    "storage_bucket": "koridorrcloneapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766847512767:android:fd0811410a42997783d60a",
+        "android_client_info": {
+          "package_name": "com.koridorrclone1app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766847512767-mnbsrm9f2jo4rtp50qqgbohjhalruqha.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.koridorrclone1app",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "766847512767-0cqv54rn09m4rgvdme31qo3t2tkemat2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRQVSbMGTnnuVNa8oXpuxAlhZWdn1AapE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "766847512767-0cqv54rn09m4rgvdme31qo3t2tkemat2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

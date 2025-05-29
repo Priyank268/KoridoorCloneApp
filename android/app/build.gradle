@@ -2,6 +2,9 @@ apply plugin: "com.android.application"
 apply plugin: "org.jetbrains.kotlin.android"
 apply plugin: "com.facebook.react"
 
+apply plugin: 'com.google.gms.google-services'  // 🔹 Required for Firebase
+
+
 /**
  * This is the configuration block to customize your React Native Android app.
  * By default you don't need to apply any configuration, just uncomment the lines you need.
@@ -77,9 +80,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.ondemandservicesclone"
+    namespace "com.koridorrclone1app"
     defaultConfig {
-        applicationId "com.ondemandservicesclone"
+        applicationId "com.koridorrclone1app"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -108,6 +111,10 @@ android {
 }
 
 dependencies {
+
+    implementation platform('com.google.firebase:firebase-bom:32.7.1')
+    implementation 'com.google.firebase:firebase-messaging'
+    
     // The version of react-native is set by the React Native Gradle Plugin
     implementation("com.facebook.react:react-android")
 
